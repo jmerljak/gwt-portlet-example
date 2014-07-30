@@ -30,7 +30,7 @@
         <!-- Configure this! -->
         <liferay.root.dir>/tmp/liferay-tomcat</liferay.root.dir>
         <tomcat.version>tomcat-7.0.42</tomcat.version>
-        <liferay.auto.deploy.dir>${liferay.root.dir}\deploy</liferay.auto.deploy.dir>
+        <liferay.auto.deploy.dir>${liferay.root.dir}/deploy</liferay.auto.deploy.dir>
         <liferay.app.server.deploy.dir>${liferay.root.dir}/${tomcat.version}/webapps</liferay.app.server.deploy.dir>
         <liferay.app.server.portal.dir>${liferay.root.dir}/${tomcat.version}/webapps/ROOT</liferay.app.server.portal.dir>
         <liferay.app.server.lib.global.dir>${liferay.root.dir}/${tomcat.version}/lib/ext</liferay.app.server.lib.global.dir>
