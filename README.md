@@ -1,13 +1,14 @@
 GWT portlet example
 ===================
-Simple Liferay [portlet](http://www.onjava.com/pub/a/onjava/2005/09/14/what-is-a-portlet.html) with [GWT](http://www.gwtproject.org/) integration.
+Simple [portlet](http://www.onjava.com/pub/a/onjava/2005/09/14/what-is-a-portlet.html) with [GWT](http://www.gwtproject.org/) integration.
 
 Usage
 ------------
-- Build WAR by running `mvn package`
-- Start and configure [Liferay Portal](https://www.liferay.com/)
-- Configure *liferay.root.dir property* in *pom.xml*
-- Deploy portlet with `mvn liferay:deploy`
+Build WAR by running `mvn clean package` command.
+
+Start and configure Liferay Portal.
+
+Deploy portlet with `mvn liferay:deploy`.
 
 Prerequisites
 ------------
@@ -17,7 +18,7 @@ Prerequisites
 
 Copyright
 ---------
-You are free to use, copy, fork, adapt and redistribute... Enjoy!
+You are free to use, copy, fork, adapt and redistribute...
 
 
-Jakob Merljak, 2014.
+Jakob Merljak, 2013.
