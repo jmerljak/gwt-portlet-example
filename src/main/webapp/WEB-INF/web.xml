@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+ 
+    <!-- see: http://milen.commsen.com/2011/01/liferay-gwt-portlet-how-to-make-it-instanceable-and-use-gwt-rpc.html -->
+    <!-- and  http://longgoldenears.blogspot.com/2008/03/portaldelegateservlet-servlet-session.html -->
+    <servlet>
+        <servlet-name>testServlet</servlet-name>
+        <servlet-class>com.liferay.portal.kernel.servlet.PortalDelegateServlet</servlet-class>
+        <init-param>
+            <param-name>servlet-class</param-name>
+            <param-value>si.merljak.examples.gwtportlet.server.TestServiceImpl</param-value>
+        </init-param>
+        <init-param>
+            <param-name>sub-context</param-name>
+            <param-value>testServlet</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+	<!-- additional servlet mapping, avoiding unintuitive URL patterns like '../../delegate/testServlet' -->
+    <servlet-mapping>
+        <servlet-name>testServlet</servlet-name>
+        <url-pattern>/GwtPortlet/testService</url-pattern>
+    </servlet-mapping>
+</web-app>

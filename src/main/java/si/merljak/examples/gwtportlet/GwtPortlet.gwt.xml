@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="GwtPortlet">
+	<inherits name="com.google.gwt.user.User" />
+
+    <!-- Source packages -->
+	<source path="client"/>
+	<source path="shared"/>
+
+    <!-- Application entry point class -->
+    <entry-point class="si.merljak.examples.gwtportlet.client.GwtPortlet"/>
+</module>
