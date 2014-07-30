@@ -1,6 +1,6 @@
 GWT portlet example
 ===================
-Simple [portlet](http://www.onjava.com/pub/a/onjava/2005/09/14/what-is-a-portlet.html) with [GWT](http://www.gwtproject.org/) integration.
+Simple Liferay [portlet](http://www.onjava.com/pub/a/onjava/2005/09/14/what-is-a-portlet.html) with [GWT](http://www.gwtproject.org/) integration.
 
 Usage
 ------------
