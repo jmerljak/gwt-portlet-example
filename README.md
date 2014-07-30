@@ -6,7 +6,7 @@ Usage
 ------------
 - Build WAR by running `mvn package`
 - Start and configure [Liferay Portal](https://www.liferay.com/)
-- Configure Liferay root dir in pom.xml
+- Configure *liferay.root.dir property* in *pom.xml*
 - Deploy portlet with `mvn liferay:deploy`
 
 Prerequisites
